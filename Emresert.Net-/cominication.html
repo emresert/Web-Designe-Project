@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mail</title>
+    <link rel="stylesheet" href="css1.css">
+    
+</head>
+<body>
+    
+        <div id="translate">
+                <div id="img1">
+                 <a href="index.html"><img id="turkish" src="img\log2.jpeg" alt="turklog" title="Türkçe"></a>
+          </div>
+        <div id="img2">
+            <a href="indexe.html"><img id="english" src="img\log1.jpeg" alt="englog" title="English"></a>
+        </div>
+       
+       </div>
+
+       <div id="meet">Emresert.net</div>
+<br>
+
+     
+    <div id="cform">
+        <form action="comminication.php" method="POST">
+            <fieldset>
+                <legend>Adınız / Name</legend>
+                <input type="text" id="t1"  name="firstname" size="30px;">
+            </fieldset>
+
+            <fieldset>
+                <legend>Soyadınız / Surname</legend>
+                <input type="text" id="t2"  name="surname" size="30px;">
+            </fieldset>
+
+            <fieldset>
+                <legend>e-Mail</legend>
+                <input type="text" id="t3"  name="email" size="30px;">
+            </fieldset>
+
+            <fieldset>
+                    <legend>Konu/Subject</legend>
+                    <input type="text" id="t4"  name="subject" size="30px;">
+                </fieldset>
+
+            <fieldset>
+                <legend>Mesajınız / Your Message</legend>
+                <textarea name="message"  id="t5" cols="50" rows="10"></textarea>
+            </fieldset>
+
+            <div id="buttons">
+               <input id="submit" type="submit" value="Gonder/Submit">
+               <input type="reset" value="Temizle/Reset">
+            </div>
+        </form>
+    </div>
+
+            
+</body>
+<script >
+    (function formtest(){
+    var b1 = document.getElementById("submit"); 
+    b1.onclick=b1.click=test;
+} )(); 
+function test(event){
+  var t1 = document.getElementById("t1");
+  var t2 = document.getElementById("t2");
+  var t3 = document.getElementById("t3");
+  var t4 = document.getElementById("t4");
+  var t5 = document.getElementById("t5");
+  
+if((t1.value==" " || t1.value =="")||(t2.value==" " || t2.value =="")||(t3.value==" " || t3.value =="")||(t4.value==" " || t4.value =="")||(t4.value==" " || t4.value =="")){
+  alert("Lütfen alanları boş bırakmayınız!");
+  event.preventDefault();
+ } 
+}
+
+</script>
+</html> 
+
+       
+      </body>
+      </html>

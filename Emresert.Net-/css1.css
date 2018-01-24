@@ -1,0 +1,396 @@
+body{
+    background-color:rgba(228, 226, 226, 0.8);
+    background: url(\r2.jpg);
+    background-repeat:no-repeat; 
+    background-size: 100%;
+    height: 100%;  
+    
+}
+
+
+#translate{
+    display:-webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack:center;
+    border:0px;
+    width: 60px;
+    box-shadow:1px 1px 1px 1px rgba(7, 7, 7, 0.4);   
+    border-radius: 12px;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 94%;
+}
+#english{
+    cursor: pointer; 
+    width: 20px;
+    height: 20px;
+    padding-left: 4px;
+    padding-top: 3px;
+   
+}
+#turkish{
+    cursor: pointer; 
+    width: 20px;
+    height: 20px;
+    padding-left: 1px;
+    padding-right: 2px;
+    padding-top: 3px;
+   
+}
+#meet{
+    width: 620px;
+    color:rgba(0, 0 , 0, 0.830);
+    font-size: 65px;
+    letter-spacing: 15px;
+    font-weight: 600;
+    
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-variant: small-caps;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-left: 35px;
+    position: absolute;
+    
+} 
+
+#bio{
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight: 550;
+    margin-left: 50px;
+    margin-top: 120px;
+    letter-spacing: 3px;
+    position:  absolute;
+}
+#portfolio{
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight: 550;
+    margin-left: 195px;
+    margin-top: 120px;
+    letter-spacing: 3px;
+    position:  absolute;
+}
+#works{
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-variant: small-caps;
+    font-size: 21px;
+    font-weight: 550;
+    margin-left: 340px;
+    margin-top: 119px;
+    letter-spacing: 3px;
+    position:  absolute; 
+}
+.section:hover{
+    transition: 0.4s;
+    text-shadow: 1px 0px 1px rgb(102, 100, 100);
+}
+.section:active{
+    text-shadow: 1px 0px 1px rgb(102, 100, 100);
+}
+.slogan{
+    position: absolute;
+    margin-top: 350px;
+    margin-left:300px;
+    font-size: 50px;
+    font-style: italic;
+  
+}
+#menubar{
+    width: 2px;
+    height: 630px;
+    margin-top:15%;
+    background: rgba(0, 0, 0,0.7);
+    border: 1px black solid;
+    border-left: 0px;
+    border-top-right-radius:12px; 
+    border-bottom-right-radius:12px; 
+    transition: 0.1s;
+    font-size: 0px;
+    position: absolute;
+}
+
+#menubarhover{
+    color: cornsilk;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right:20px;
+    width: 10px;
+    height: 617px;
+    margin-top:15%;
+    border: 1px black solid;
+    border-left: 0px;
+    border-top-right-radius:12px; 
+    border-bottom-right-radius:12px; 
+    transition:1s;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 1100px;
+    position: absolute;
+}
+#close{
+    text-align: right;
+}
+#close i{
+    cursor: pointer;
+}
+#textone{
+    text-indent: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    letter-spacing: 1.5px;
+    transition: 0.010s;
+}
+#result{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 30%;
+    padding: 0.5%; 
+    width: 0%;
+    height: 0%;
+    
+}
+#result i {
+    font-size: 0px;
+}
+#pimgdiv{
+   position: absolute;
+   display:-webkit-box;
+   -webkit-box-orient: horizontal;
+   -webkit-box-pack: justify;
+    width: 60%;
+    height: 65%;
+    margin-top: 15%;
+    margin-left: 5%;
+    padding: 0.5%; 
+    transition: 0.5s;
+  
+}
+
+.back{
+    margin-top: 26.5%;
+    margin-bottom: 29.5%;
+    font-size: 30px;
+    }
+.back:hover{
+    transition: 0.1s;
+    cursor: pointer;
+    text-shadow:  0px 0px  20px rgb(0, 0, 0);
+}
+.pimg{
+    width:90%;
+    height:100%;
+}
+.pimg img{
+    height: 100%;
+    width:100%;
+}
+
+.for{
+    margin-top: 26.5%;
+    margin-bottom: 29.5%;
+    font-size: 30px;
+}
+.for:hover{
+    transition: 0.1s;
+    cursor: pointer;
+    text-shadow:  0px 0px  20px rgb(255, 255, 255);
+}
+#cform{
+    width: 20%;
+    height: 30%;
+   position: absolute;
+   margin-top: 5%;
+   margin-left: 3%;
+   padding: 10px;
+   font-weight: bold;
+   line-height: 25px;
+  
+}
+#buttons{
+    font-family: monospace;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    padding:5px;
+   
+    
+
+}
+
+
+
+#iconseta{
+    display:-webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    position: absolute;
+    margin-top:15%;
+    margin-left: 30px;
+    width: 800px;
+    padding:10px;
+    height: 200px;
+}
+
+#iconsetb{
+    display:-webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    position: absolute;
+    margin-top:35%;
+    margin-left: 30px;
+    width: 800px;
+    padding:10px;
+    height: 200px;
+}
+.iconsframe{
+    width: 250px;  
+}
+.icon{
+    margin-left: 70px;
+    width:  0px;
+    height: 10px;
+    padding-top: 10px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.iconhover{
+    margin-left: 70px;
+    width:100px;
+    height: 100px;
+    padding-top: 10px;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.description{
+    font-size: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    text-indent: 15px;
+    transition: 0.4s;
+    
+}
+.descriptionhover{
+    background-color: beige;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    text-align: center;
+    transition: 0.4s;
+    border: 1px ;
+    border-radius: 12px;
+    
+
+}
+#subinformationbar{
+    position: absolute;
+    background-color: rgba(0, 0 , 0, 0.6);
+    border-top: 5px rgba(0, 0 , 0, 0.6)  solid;
+    width: 100%;
+    height: 10.5%;
+    right: 0;
+    margin-top: 66%;
+    
+}
+
+#socialaccount{
+    position: absolute;
+    margin-top: 67%;
+    font-size: 25px;
+    margin-left: 9%;
+    color:rgb(168, 162, 162);
+    letter-spacing: 5px;
+   
+	
+}
+#socialaccount a{
+    text-decoration: none;
+    color:rgb(168, 162, 162);
+}
+
+#instagram:hover{
+    transition: 0.1s;
+    cursor: pointer;
+    text-shadow:  0px 0px 20px rgb(255, 255, 255); 
+}
+#facebook:hover{
+    transition: 0.1s;
+    cursor: pointer;
+    text-shadow:  0px 0px  20px rgb(255, 255, 255);
+}
+
+#linkedin:hover{
+    transition: 0.1s;
+    cursor: pointer;
+    text-shadow:  0px 0px 10px rgb(255, 255, 255);
+}
+
+#github:hover{
+    transition: 0.1s;
+    cursor: pointer;
+    text-shadow:  0px 0px 20px rgb(255, 255, 255);
+}
+#mailadress:hover{
+    transition: 0.1s;
+    cursor: pointer;
+    text-shadow:  0px 0px 20px rgb(255, 255, 255);
+}
+
+#profiles{
+    margin-top:64.5%;
+    margin-left: 1%;
+    position: absolute;
+}
+#profiles img{
+    height: 95px;
+    border: 0px solid;
+    border-radius: 50%;
+   
+}
+.stress{
+    margin-top: 70%;
+    color:rgb(168, 162, 162);
+    font-family:sans-serif ;
+    font-size: 10px;
+    margin-left: 8.5%;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: absolute;
+    
+}
+
+
+.normal {
+    
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgba(0, 0 , 0, 0.6);
+    font-size: 16px;
+    margin-top: 68%;
+    margin-left: 31%;
+    letter-spacing: 1.5px;
+    transition: 3s;
+}
+.light{
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: white;
+    font-size: 16px;
+    margin-top: 68%;
+    margin-left: 31%;
+    letter-spacing: 1.5px;
+    transition: 3s;
+}
+#comlink{
+    text-decoration: none;
+
+}
+#comlink:visited{
+    text-decoration: none;
+    color:rgb(168, 162, 162);
+}
+
